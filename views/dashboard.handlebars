@@ -1,0 +1,14 @@
+<!-- views/dashboard.handlebars -->
+<h1>Welcome to your Dashboard</h1>
+<a href="/logout">Logout</a>
+
+<h2>Your Posts</h2>
+{{#each posts}}
+  <div class="post">
+    <h3>{{title}}</h3>
+    <p>{{content}}</p>
+    <a href="/post/{{id}}">View</a>
+    <a href="/post/{{id}}/edit">Edit</a>
+    <a href="/post/{{id}}/delete">Delete</a>
+  </div>
+{{/each}}

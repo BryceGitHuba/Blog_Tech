@@ -1,0 +1,9 @@
+<!-- views/home.handlebars -->
+{{#each posts}}
+  <div class="post">
+    <h2>{{title}}</h2>
+    <p>{{content}}</p>
+    <p>By {{User.username}} on {{createdAt}}</p>
+    <!-- Add comment section if needed -->
+  </div>
+{{/each}}

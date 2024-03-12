@@ -1,0 +1,29 @@
+{
+  "name": "your-blog",
+  "version": "1.0.0",
+  "description": "A CMS-style blog site built with Node.js, Express.js, Handlebars.js, and Sequelize",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "blog",
+    "CMS",
+    "Node.js",
+    "Express",
+    "Handlebars",
+    "Sequelize"
+  ],
+  "author": "Bryce",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-session-sequelize": "^7.1.7",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "express-session": "^1.18.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.37.1"
+  }
+}
